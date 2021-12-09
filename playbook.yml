@@ -1,0 +1,6 @@
+---
+- hosts: mkts
+  tasks:
+    - name: "Criar Backup"
+      routeros_command:
+        commands: /system ntp client set enabled=yes primary-ntp=200.160.0.8 secondary-ntp=200.189.40.8
