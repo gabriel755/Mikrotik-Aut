@@ -1,5 +1,4 @@
 [clientes]
-172.24.1.25
 [clientes:vars]
 ansible_network_os=routeros
 ansible_user=
