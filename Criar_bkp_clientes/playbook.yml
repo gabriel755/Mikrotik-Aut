@@ -3,10 +3,10 @@
   tasks:
     - name: "Criar Backup"
       routeros_command:
-        commands: /system script add name="BACKUP CLIENTES" source=":local FTPServer \"10.70.7.32\"\
+        commands: /system script add name="BACKUP CLIENTES" source=":local FTPServer \"??????\"\
                   \n:local FTPPort 21\
-                  \n:local FTPUser \"mikrotik\"\
-                  \n:local FTPPass \"n7xiya4xFaFWwv3x\"\
+                  \n:local FTPUser \"?????\"\
+                  \n:local FTPPass \"???????\"\
                   \n/export file=([/system identity get name] . \"-\" . [:pick [/system clock \
                   get date] 4 6] . [:pick [/system clock get date] 0 3] . [:pick [/system cloc\
                   k get date] 7 11]);\
